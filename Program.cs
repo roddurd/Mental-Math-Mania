@@ -140,7 +140,7 @@ namespace test
                 num1 = rand.Next(2, 50);
                 num2 = rand.Next(2, 50);
                 int product = num1 * num2;
-                Console.WriteLine("What is " + product + " % " + num2 + "?");
+                Console.WriteLine("What is " + product + " / " + num2 + "?");
                 Console.Write("Your answer: ");
                 String response = Console.ReadLine();
                 if (Convert.ToString(num1).Equals(response))
