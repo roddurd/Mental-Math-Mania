@@ -19,7 +19,7 @@ namespace test
 
         static void menu()
         {
-            Console.WriteLine("MENTAL MATH MANIA\n------------------\n\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Squares\n\n");
+            Console.WriteLine("MENTAL MATH MANIA\n==================\n\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Squares\n\n");
             Console.Write("Which problem set do you want to do? [1-5]: ");
             String response = Console.ReadLine();
             String[] valid = { "1", "2", "3", "4", "5" };
